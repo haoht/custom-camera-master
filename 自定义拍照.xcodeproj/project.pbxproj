@@ -1,0 +1,380 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EAE67B4C1C104A07004BA18F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EAE67B4B1C104A07004BA18F /* main.m */; };
+		EAE67B4F1C104A07004BA18F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EAE67B4E1C104A07004BA18F /* AppDelegate.m */; };
+		EAE67B521C104A07004BA18F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EAE67B511C104A07004BA18F /* ViewController.m */; };
+		EAE67B551C104A07004BA18F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAE67B531C104A07004BA18F /* Main.storyboard */; };
+		EAE67B571C104A07004BA18F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAE67B561C104A07004BA18F /* Assets.xcassets */; };
+		EAE67B5A1C104A07004BA18F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAE67B581C104A07004BA18F /* LaunchScreen.storyboard */; };
+		EAE67B631C104A53004BA18F /* PKImagePickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EAE67B621C104A53004BA18F /* PKImagePickerViewController.m */; };
+		EAE74B0B1C108879008BB52D /* UIViewExt.m in Sources */ = {isa = PBXBuildFile; fileRef = EAE74B0A1C108879008BB52D /* UIViewExt.m */; };
+		EAE74B111C108959008BB52D /* changeCamer.png in Resources */ = {isa = PBXBuildFile; fileRef = EAE74B0E1C108959008BB52D /* changeCamer.png */; };
+		EAE74B121C108959008BB52D /* flashOff.png in Resources */ = {isa = PBXBuildFile; fileRef = EAE74B0F1C108959008BB52D /* flashOff.png */; };
+		EAE74B131C108959008BB52D /* flashOn.png in Resources */ = {isa = PBXBuildFile; fileRef = EAE74B101C108959008BB52D /* flashOn.png */; };
+		EAE74B171C108AAD008BB52D /* UIView+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = EAE74B161C108AAD008BB52D /* UIView+Utils.m */; };
+		EAE74B1B1C10926F008BB52D /* LeafButton.m in Sources */ = {isa = PBXBuildFile; fileRef = EAE74B1A1C10926F008BB52D /* LeafButton.m */; };
+		EAE74B1F1C1095D3008BB52D /* UIButton+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = EAE74B1E1C1095D3008BB52D /* UIButton+Utils.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EAE67B471C104A07004BA18F /* 自定义拍照.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "自定义拍照.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAE67B4B1C104A07004BA18F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EAE67B4D1C104A07004BA18F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EAE67B4E1C104A07004BA18F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EAE67B501C104A07004BA18F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EAE67B511C104A07004BA18F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EAE67B541C104A07004BA18F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EAE67B561C104A07004BA18F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EAE67B591C104A07004BA18F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EAE67B5B1C104A07004BA18F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAE67B611C104A53004BA18F /* PKImagePickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKImagePickerViewController.h; sourceTree = "<group>"; };
+		EAE67B621C104A53004BA18F /* PKImagePickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKImagePickerViewController.m; sourceTree = "<group>"; };
+		EAE74B091C108879008BB52D /* UIViewExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewExt.h; sourceTree = "<group>"; };
+		EAE74B0A1C108879008BB52D /* UIViewExt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewExt.m; sourceTree = "<group>"; };
+		EAE74B0E1C108959008BB52D /* changeCamer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = changeCamer.png; sourceTree = "<group>"; };
+		EAE74B0F1C108959008BB52D /* flashOff.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flashOff.png; sourceTree = "<group>"; };
+		EAE74B101C108959008BB52D /* flashOn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flashOn.png; sourceTree = "<group>"; };
+		EAE74B151C108AAD008BB52D /* UIView+Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Utils.h"; sourceTree = "<group>"; };
+		EAE74B161C108AAD008BB52D /* UIView+Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Utils.m"; sourceTree = "<group>"; };
+		EAE74B191C10926F008BB52D /* LeafButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeafButton.h; sourceTree = "<group>"; };
+		EAE74B1A1C10926F008BB52D /* LeafButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeafButton.m; sourceTree = "<group>"; };
+		EAE74B1D1C1095D3008BB52D /* UIButton+Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Utils.h"; sourceTree = "<group>"; };
+		EAE74B1E1C1095D3008BB52D /* UIButton+Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Utils.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EAE67B441C104A07004BA18F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EAE67B3E1C104A07004BA18F = {
+			isa = PBXGroup;
+			children = (
+				EAE67B491C104A07004BA18F /* 自定义拍照 */,
+				EAE67B481C104A07004BA18F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EAE67B481C104A07004BA18F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EAE67B471C104A07004BA18F /* 自定义拍照.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EAE67B491C104A07004BA18F /* 自定义拍照 */ = {
+			isa = PBXGroup;
+			children = (
+				EAE67B4D1C104A07004BA18F /* AppDelegate.h */,
+				EAE67B4E1C104A07004BA18F /* AppDelegate.m */,
+				EAE67B501C104A07004BA18F /* ViewController.h */,
+				EAE67B511C104A07004BA18F /* ViewController.m */,
+				EAE67B611C104A53004BA18F /* PKImagePickerViewController.h */,
+				EAE67B621C104A53004BA18F /* PKImagePickerViewController.m */,
+				EAE67B531C104A07004BA18F /* Main.storyboard */,
+				EAE67B561C104A07004BA18F /* Assets.xcassets */,
+				EAE67B581C104A07004BA18F /* LaunchScreen.storyboard */,
+				EAE67B5B1C104A07004BA18F /* Info.plist */,
+				EAE67B4A1C104A07004BA18F /* Supporting Files */,
+			);
+			path = "自定义拍照";
+			sourceTree = "<group>";
+		};
+		EAE67B4A1C104A07004BA18F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EAE74B0E1C108959008BB52D /* changeCamer.png */,
+				EAE74B0F1C108959008BB52D /* flashOff.png */,
+				EAE74B101C108959008BB52D /* flashOn.png */,
+				EAE74B1C1C1095D3008BB52D /* UIButton+Utils */,
+				EAE74B181C10926F008BB52D /* LeafBtn */,
+				EAE74B141C108AAD008BB52D /* UIView+Utils */,
+				EAE74B081C108879008BB52D /* UIViewExt */,
+				EAE67B4B1C104A07004BA18F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EAE74B081C108879008BB52D /* UIViewExt */ = {
+			isa = PBXGroup;
+			children = (
+				EAE74B091C108879008BB52D /* UIViewExt.h */,
+				EAE74B0A1C108879008BB52D /* UIViewExt.m */,
+			);
+			path = UIViewExt;
+			sourceTree = "<group>";
+		};
+		EAE74B141C108AAD008BB52D /* UIView+Utils */ = {
+			isa = PBXGroup;
+			children = (
+				EAE74B151C108AAD008BB52D /* UIView+Utils.h */,
+				EAE74B161C108AAD008BB52D /* UIView+Utils.m */,
+			);
+			path = "UIView+Utils";
+			sourceTree = "<group>";
+		};
+		EAE74B181C10926F008BB52D /* LeafBtn */ = {
+			isa = PBXGroup;
+			children = (
+				EAE74B191C10926F008BB52D /* LeafButton.h */,
+				EAE74B1A1C10926F008BB52D /* LeafButton.m */,
+			);
+			path = LeafBtn;
+			sourceTree = "<group>";
+		};
+		EAE74B1C1C1095D3008BB52D /* UIButton+Utils */ = {
+			isa = PBXGroup;
+			children = (
+				EAE74B1D1C1095D3008BB52D /* UIButton+Utils.h */,
+				EAE74B1E1C1095D3008BB52D /* UIButton+Utils.m */,
+			);
+			path = "UIButton+Utils";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EAE67B461C104A07004BA18F /* 自定义拍照 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAE67B5E1C104A07004BA18F /* Build configuration list for PBXNativeTarget "自定义拍照" */;
+			buildPhases = (
+				EAE67B431C104A07004BA18F /* Sources */,
+				EAE67B441C104A07004BA18F /* Frameworks */,
+				EAE67B451C104A07004BA18F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "自定义拍照";
+			productName = "自定义拍照";
+			productReference = EAE67B471C104A07004BA18F /* 自定义拍照.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EAE67B3F1C104A07004BA18F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = apple;
+				TargetAttributes = {
+					EAE67B461C104A07004BA18F = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+				};
+			};
+			buildConfigurationList = EAE67B421C104A07004BA18F /* Build configuration list for PBXProject "自定义拍照" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EAE67B3E1C104A07004BA18F;
+			productRefGroup = EAE67B481C104A07004BA18F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EAE67B461C104A07004BA18F /* 自定义拍照 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EAE67B451C104A07004BA18F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAE67B5A1C104A07004BA18F /* LaunchScreen.storyboard in Resources */,
+				EAE74B131C108959008BB52D /* flashOn.png in Resources */,
+				EAE67B571C104A07004BA18F /* Assets.xcassets in Resources */,
+				EAE74B111C108959008BB52D /* changeCamer.png in Resources */,
+				EAE74B121C108959008BB52D /* flashOff.png in Resources */,
+				EAE67B551C104A07004BA18F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EAE67B431C104A07004BA18F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAE74B171C108AAD008BB52D /* UIView+Utils.m in Sources */,
+				EAE74B1F1C1095D3008BB52D /* UIButton+Utils.m in Sources */,
+				EAE67B521C104A07004BA18F /* ViewController.m in Sources */,
+				EAE67B4F1C104A07004BA18F /* AppDelegate.m in Sources */,
+				EAE74B0B1C108879008BB52D /* UIViewExt.m in Sources */,
+				EAE74B1B1C10926F008BB52D /* LeafButton.m in Sources */,
+				EAE67B4C1C104A07004BA18F /* main.m in Sources */,
+				EAE67B631C104A53004BA18F /* PKImagePickerViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EAE67B531C104A07004BA18F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EAE67B541C104A07004BA18F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EAE67B581C104A07004BA18F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EAE67B591C104A07004BA18F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EAE67B5C1C104A07004BA18F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EAE67B5D1C104A07004BA18F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EAE67B5F1C104A07004BA18F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "自定义拍照/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.apple.-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EAE67B601C104A07004BA18F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "自定义拍照/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.apple.-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EAE67B421C104A07004BA18F /* Build configuration list for PBXProject "自定义拍照" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAE67B5C1C104A07004BA18F /* Debug */,
+				EAE67B5D1C104A07004BA18F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EAE67B5E1C104A07004BA18F /* Build configuration list for PBXNativeTarget "自定义拍照" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAE67B5F1C104A07004BA18F /* Debug */,
+				EAE67B601C104A07004BA18F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EAE67B3F1C104A07004BA18F /* Project object */;
+}
